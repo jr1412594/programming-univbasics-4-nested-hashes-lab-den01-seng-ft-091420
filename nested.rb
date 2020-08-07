@@ -65,7 +65,8 @@ def adding_matz
 #   :languages => ["LISP", "C"]
 # }
 # return the entire updated hash
-
+ programmer_hash[:yukihiro_matsumoto] = {known_for: "Ruby"
+    }
 	programmer_hash = 
  		{
       :grace_hopper => {
